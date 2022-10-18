@@ -1,3 +1,7 @@
+function featureA1(x, y, z) {
+  console.log(x, y, z);
+}
+
 function doSomething(a, b, c, d) {
   console.log(a);
   console.log(b);
@@ -8,4 +12,5 @@ function doSomething(a, b, c, d) {
 function main() {
   console.log("Hello World");
   doSomething("a", "b", "c", "d");
+  featureA1('x', 'y', 'z');
 }
