@@ -15,7 +15,7 @@ function doSomething({ a, b, c, d }) {
 
 function main() {
   console.log("Hello World");
-  doSomething({a: "a", b: "b", c: "c", d: "d"});
-  featureA1({ x: 'x', y: 'y', z: 'z' });
+  doSomething({a: "1", b: "2", c: "3", d: "4"});
+  featureA1({ x: '1', y: '2', z: '3' });
   featureA2();
 }
